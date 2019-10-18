@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>c4</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <header class="header">
+    <h1>c4 - Quad Block</h1>
+  </header>
+  <section class="section">
+    <div class="section-message"></div>
+    <canvas class="section-canvas"></canvas>
+  </section>
+  
+  <div class="mode">
+    <div class="mode-chooser">
+      <h1>c4 - Quad Block</h1>
+      <p>Welcome to quad block game!<br /></p>
+      <h2>Mode chooser</h2>
+      <label><input class="mode-chooser-input" type="radio" name="mode" value="offline-ai" checked> Offline: Human player vs AI player</label><br />
+      <label><input class="mode-chooser-input" type="radio" name="mode" value="offline-human"> Offline: Human player vs human player</label><br />
+      <button class="mode-chooser-submit">Start game</button>
+    </div>
+  </div>
+  <div class="message hidden">
+    <div class="message-body">
+      <div class="message-body-content"></div>
+      <button class="message-body-dismiss">OK</button>
+    </div>
+  </div>
+  <script src="./src/app.ts"></script>
+</body>
+
+</html>
